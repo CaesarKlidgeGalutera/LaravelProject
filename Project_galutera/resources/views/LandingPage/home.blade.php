@@ -5,21 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title', 'home')</title>
+    {{---CSS---}}
+    <link rel="stylesheet" href="{{asset('css/design.css')}}">
 </head>
 <body>
     @section('navbar')
-      <nav>
-        <img src="#" alt="#">
-        <ul>
-          <li><a href="/home">Home</a></li>
-          <li><a href="/academics">Academics</a></li>
-          <li><a href="/about">About Us</a> </li>
-          <li>|</li>
-          <li><a href="/register">Register</a></li>
-          <li><a href="/login">Login</a></li>
-        </ul>
+      <nav class="navBar">
+        <div class="navImg">
+          <img src="#" alt="#">
+        </div>
+        <div class="navList">
+          <ul>
+            <li class=""><a class="navList--item__current"href="/">Home</a></li>
+            <li ><a class="navList--item" href="/academics">Academics</a></li>
+            <li ><a class="navList--item last" href="/about">About Us</a> </li>
+            <li class="">|</li>
+            <li ><a class="button button--register" href="/register">Register</a></li>
+            <li><a  class="button button--login" href="/login">Login</a></li>
+          </ul>
+        </div>
       </nav>
-
       @section('content')
       <div class="heroSection">
         <div class="heroSection--content">
@@ -44,4 +49,11 @@
         copyright
       </footer>
 </body>
+
+<script>
+  $("a").click(function(){
+    $("a").css("color","");
+    $(this).css("color","black");
+  })
+</script>
 </html>

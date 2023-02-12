@@ -13,9 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('LandingPage.home');
 });
+
 
 Route::get('/login', function () {
     return view('LoginPage.login');
