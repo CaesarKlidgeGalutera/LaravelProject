@@ -26,16 +26,20 @@
         </div>
       </nav>
       @section('content')
+      </div>
       <div class="heroSection">
-        <div class="heroSection--content">
-          <p>100% Trusted School in the North</p>
-          <h1>Provides Quality Education And Empowers Student To the Global Industry</h1>
-          <p>This University is home of top-notchers student that excels in the industry that they've chosen. "" University is also at the Top 10 University in the country</p>
-          <div class="heroSection--button">
-            <button class="heroSection--button__white "name="Enroll">Enroll Now
-              <button class="heroSection--button__gray "name="Enroll">Programs Offered
+        <div class="herSection--right">
+          <div class="heroSection--content">
+            <p class="heroSection--content__opening">100% Trusted School in the North</p> 
+            <h1>
+              EMPOWERS STUDENT TO THE GLOBAL INDUSTRY
+            </h1>
+            <p class="heroSection--content__desc">This University is home of top-notchers student that excels in the industry that they've chosen. "" University is also at the Top 10 University in the country</p>
+            <div class="heroSection--button">
+              <button class="Sectbutton heroSection--button__white "name="Enroll">Enroll Now
+              <button class="Sectbutton heroSection--button__gray "name="Enroll">Programs Offered
+            </div>
           </div>
-          
         </div>
         <div class="heroSection--img">
           <img src="#" alt="#">
