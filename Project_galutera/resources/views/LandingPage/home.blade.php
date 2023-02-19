@@ -41,8 +41,47 @@
             </div>
           </div>
         </div>
+
         <div class="heroSection--img">
-          <img src="#" alt="#">
+          <img class="heroImg"src="img/univ.jpg" alt="univ_Pic">
+        </div>
+      </div>
+
+      <div class="whyInfo">
+        <div class="whyInfo--title">
+          <p class="whyInfo--desc__title">Why choose us</p>
+          <p class="whyInfo--desc__p">A highly performing university of the north</p>
+        </div>
+        <div class="ImgDesc">
+          <div class="ImgDesc--img">
+            <img class="img-students"src="img/students.jpeg" alt="students">
+          </div>
+          <div class="ImgDesc--infor">
+            <div class="ImgDesc--infor__block">
+              <div class="contacts contacts--customer">
+                <div class="contacts--customer__block">
+                  <div class="contacts--customer__icon"><i class="fa-solid fa-phone fa-xl"></i></div>
+                  <div class="contacts--customer__title"><h3>Customer Support<h3></div>
+                </div>
+                <div class="contacts--customer__desc"><p>For queries please contact: 074-553-012</p></div>
+              </div>
+
+              <div class="contacts contacts--quality">
+                <div class="contacts--customer__block">
+                  <div class="contacts--customer__icon"><i class="fa-solid fa-thumbs-up fa-xl"></i></div>
+                  <div class="contacts--customer__title"><h3>Guarantted Quality Education<h3></div>
+                </div>
+                <div class="contacts--customer__desc"><p>The university is equipped with new equipments and facilities</p></div>
+              </div>
+              <div class="contacts contacts--customer">
+                <div class="contacts--customer__block">
+                  <div class="contacts--customer__icon"><i class="fa-sharp fa-solid fa-location-dot fa-xl"></i></div>
+                  <div class="contacts--customer__title"><h3>Location<h3></div>  
+                </div>
+                <div class="contacts--customer__desc"><p>The University is Located at New Clark City that the students will enjoy and experience the city living </p></div>
+                  </div>
+                </div>
+            </div>
         </div>
       </div>
       @endsection
@@ -54,10 +93,6 @@
       </footer>
 </body>
 
-<script>
-  $("a").click(function(){
-    $("a").css("color","");
-    $(this).css("color","black");
-  })
-</script>
+{{--Script--}}
+<script src="https://kit.fontawesome.com/cd398faff6.js" crossorigin="anonymous"></script>
 </html>

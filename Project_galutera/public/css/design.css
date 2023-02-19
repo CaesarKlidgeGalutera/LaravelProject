@@ -88,7 +88,7 @@ body {
 
 .heroSection--content {
     padding-top: 8em;
-    width: 30em;
+    width: 43em;
     padding-left: 4em;
 }
 
@@ -99,7 +99,7 @@ body {
     padding-top: 0.85em;
     padding-bottom: 0.55em;
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 46px;
 }
 
 .heroSection--content__desc {
@@ -118,4 +118,88 @@ body {
 
 .heroSection--button__gray {
     background-color: transparent;
+}
+
+.heroSection--img {
+    /* border: 1px solid red; */
+    margin-left: 50px;
+    padding-top: 50px;
+    flex: 1;
+}
+
+.heroImg {
+    border-radius: 63px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.whyInfo {
+    background-color: white;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.whyInfo--title {
+    text-align: center;
+    padding-bottom: 34px;
+}
+
+.whyInfo--desc__title {
+    font-weight: 500;
+    font-size: 48px;
+    padding-bottom: 18px;
+}
+
+.ImgDesc {
+    display: flex;
+    padding-left: 67px;
+}
+
+.ImgDesc--img {
+    flex: 1;
+}
+
+.img-students {
+    width: 566px;
+    height: 528px;
+}
+
+.ImgDesc--infor {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10em;
+}
+
+.contacts {
+    padding-bottom: 40px;
+}
+
+.contacts--customer__block {
+    display: flex;
+}
+
+.contacts--customer__icon {
+    background-color: #c4c4c4;
+    margin-right: 24.85px;
+    width: 51.45px;
+    height: 51.45px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+}
+
+i {
+    color: white;
+}
+
+.ImgDesc--infor__block {
+    padding-right: 84px;
+}
+
+.contacts--customer__desc {
+    padding-left: 77px;
 }
