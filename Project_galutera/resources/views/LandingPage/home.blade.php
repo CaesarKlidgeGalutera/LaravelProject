@@ -89,7 +89,40 @@
       @yield('content')
 
       <footer>
-        copyright
+        <div class="UpperFooter">
+          <div class="logoSection">
+            <img src="#" alt="logo">
+            <p>Our vision is to provide quality education and help students gain qualities they needed in their chosen industry</p>
+            <div class="contentsLogo">
+              <div class="footer-icon"><a class="facebook"href="#"><i class="fa-brands fa-facebook-f fa-lg"></i></a></div>
+              <div class="footer-icon"><a class="twitter" href="#"><i class="fa-brands fa-twitter fa-lg"></i></a></div>
+              <div class="footer-icon"><a class="instagram" href="#"><i class="fa-brands fa-instagram fa-xl"></i></a></div>
+            </div>
+          </div>
+          <div class="aboutSection">
+            <h3>About</h3>
+            <a href="#">About us</a>
+            <a href="#">Academics</a>
+            <a href="#">Contacts</a>
+          </div>
+          <div class="socialsSection">
+            <h3>Socials</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+          </div>
+        </div>
+        <hr>
+
+        <div class="lowerFooter">
+          <div class="copyright">
+            <p>&#169;2023Galutera. All rights reserved</p>
+          </div>
+          <div class="terms">
+            <p>Privacy &#38; Policy</p>
+            <p>Terms &#38; Condition</p>
+          </div>
+        </div>
       </footer>
 </body>
 
