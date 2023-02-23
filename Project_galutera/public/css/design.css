@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&family=Plus+Jakarta+Sans:wght@400;500;800&family=Space+Grotesk:wght@300;400&display=swap");
 
 * {
     padding: 0;
@@ -73,8 +73,7 @@ body {
 .navList--item__current {
     padding-left: 38.16px;
     padding-right: 38.16px;
-    font-weight: 600;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -206,7 +205,7 @@ i {
 
 .UpperFooter {
     display: flex;
-    padding-top: 4em;
+    padding-top: 3em;
     padding-right: 4em;
     padding-bottom: 1em;
     padding-left: 4em;
@@ -220,7 +219,7 @@ i {
     width: 350px;
     padding-top: 1em;
     padding-bottom: 1.5em;
-    font-weight: 500;
+    font-weight: 500s;
 }
 
 .aboutSection {
@@ -298,4 +297,122 @@ i {
 
 .copyright {
     flex: 2;
+}
+
+.loginPage {
+    background-image: url("../img/background.jpg");
+    display: flex;
+    background-size: contain;
+    height: 92vh;
+}
+
+.loginPage--right {
+    flex: 1;
+    background-color: rgba(41, 41, 41, 0.39);
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+}
+
+.loginPage--right__content {
+    padding-top: 160px;
+}
+
+.loginPage--right__content p {
+    padding-top: 5px;
+}
+.loginPage--left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.loginPage--left__content {
+    padding-bottom: 4.8em;
+    padding-left: 5em;
+}
+
+.loginPage--left h1 {
+    width: 330px;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    line-height: 1.4em;
+    font-weight: 800;
+}
+
+.loginPage--left p {
+    padding-top: 0.5em;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+}
+
+.loginInfo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.loginInfo input {
+    border-style: none;
+    background-color: transparent;
+    border-bottom: solid rgba(224, 224, 224, 1) 1px;
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    margin-bottom: 15px;
+    padding-bottom: 11px;
+}
+
+.loginInfo input::placeholder {
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+}
+
+.loginPage--right p {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+}
+
+.retain {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 15px;
+}
+
+.retain a {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 15px;
+    padding-left: 175px;
+}
+
+.loginPage--left__btn {
+    margin-top: 40px;
+    padding: 15px 191.5px;
+    border-radius: 6px;
+    border-style: none;
+    background-color: black;
+    color: white;
+}
+
+.Create {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.Create a {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 15px;
 }
