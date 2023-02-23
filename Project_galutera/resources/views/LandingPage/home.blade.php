@@ -12,7 +12,8 @@
     @section('navbar')
       <nav class="navBar">
         <div class="navImg">
-          <img src="#" alt="#">
+          <img src="img/LogoSmall.png" alt="#">
+          <p>Bolton University</p>
         </div>
         <div class="navList">
           <ul>
@@ -34,7 +35,7 @@
             <h1>
               EMPOWERS STUDENT TO THE GLOBAL INDUSTRY
             </h1>
-            <p class="heroSection--content__desc">This University is home of top-notchers student that excels in the industry that they've chosen. "" University is also at the Top 10 University in the country</p>
+            <p class="heroSection--content__desc">This University is home of top-notchers student that excels in the industry that they've chosen. Bolton University is also at the Top 10 University in the country</p>
             <div class="heroSection--button">
               <button class="Sectbutton heroSection--button__white "name="Enroll">Enroll Now
               <button class="Sectbutton heroSection--button__gray "name="Enroll">Programs Offered
@@ -91,7 +92,11 @@
       <footer>
         <div class="UpperFooter">
           <div class="logoSection">
-            <img src="#" alt="logo">
+            <div class="logo">
+              <img src="img/LogoSmall.png" alt="logo">
+              <p>Bolton University</p>
+            </div>
+           
             <p>Our vision is to provide quality education and help students gain qualities they needed in their chosen industry</p>
             <div class="contentsLogo">
               <div class="footer-icon"><a class="facebook"href="#"><i class="fa-brands fa-facebook-f fa-lg"></i></a></div>
