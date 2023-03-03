@@ -19,6 +19,5 @@ Route::get('/', function () {
 
 
 ROUTE::GET('/login', function () {
-    return VIEW('LOGINPAGE.LOGIN');
+    return VIEW('LoginPage.login');
 });
-
